@@ -1,0 +1,1716 @@
+{
+  "schemaVersion": 1,
+  "settings": {
+    "startDate": "2026-10-13",
+    "ownerName": ""
+  },
+  "competencies": [
+    {
+      "id": "S01",
+      "name": "Administrative documents & document control",
+      "domain": "Project ops",
+      "priority": "Kritis",
+      "baseline": null,
+      "current": null,
+      "target": 4,
+      "evidence": "P1: dokumen rapi + versioning",
+      "resourceIds": [
+        "R01",
+        "R15"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S02",
+      "name": "Project budgeting, finance & per diem",
+      "domain": "Finance",
+      "priority": "Kritis",
+      "baseline": null,
+      "current": null,
+      "target": 4,
+      "evidence": "P1: ledger dan monthly finance report",
+      "resourceIds": [
+        "R06",
+        "R19"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S03",
+      "name": "Excel operational, pivot & Power Query",
+      "domain": "Office",
+      "priority": "Kritis",
+      "baseline": null,
+      "current": null,
+      "target": 4,
+      "evidence": "P1: budget tracker dengan rekonsiliasi",
+      "resourceIds": [
+        "R18",
+        "R19"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S04",
+      "name": "Project planning, WBS, Gantt, RAID",
+      "domain": "Project ops",
+      "priority": "Kritis",
+      "baseline": null,
+      "current": null,
+      "target": 4,
+      "evidence": "P1: workplan + RAID log",
+      "resourceIds": [
+        "R01",
+        "R02"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S05",
+      "name": "Procurement & inventory register",
+      "domain": "Finance",
+      "priority": "Tinggi",
+      "baseline": null,
+      "current": null,
+      "target": 3,
+      "evidence": "P1: procurement pack & inventory",
+      "resourceIds": [
+        "R07"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S06",
+      "name": "Workshop/event logistical coordination",
+      "domain": "Operations",
+      "priority": "Kritis",
+      "baseline": null,
+      "current": null,
+      "target": 4,
+      "evidence": "P3: event operations pack",
+      "resourceIds": [
+        "R01",
+        "R07"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S07",
+      "name": "Minutes, briefing notes & reporting",
+      "domain": "Writing",
+      "priority": "Kritis",
+      "baseline": null,
+      "current": null,
+      "target": 4,
+      "evidence": "P3: minutes ID-EN & brief",
+      "resourceIds": [
+        "R15"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S08",
+      "name": "English written professional communications",
+      "domain": "English",
+      "priority": "Kritis",
+      "baseline": null,
+      "current": null,
+      "target": 4,
+      "evidence": "P3: memos/emails reviewed",
+      "resourceIds": [
+        "R13",
+        "R14"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S09",
+      "name": "English speaking & stakeholder calls",
+      "domain": "English",
+      "priority": "Kritis",
+      "baseline": null,
+      "current": null,
+      "target": 4,
+      "evidence": "P3: rehearsal recording + feedback",
+      "resourceIds": [
+        "R14"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S10",
+      "name": "Results framework, ToC, indicators",
+      "domain": "MEAL",
+      "priority": "Kritis",
+      "baseline": null,
+      "current": null,
+      "target": 4,
+      "evidence": "P2: logframe + indicator dictionary",
+      "resourceIds": [
+        "R04",
+        "R05"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S11",
+      "name": "M&E data quality and reporting",
+      "domain": "MEAL",
+      "priority": "Kritis",
+      "baseline": null,
+      "current": null,
+      "target": 4,
+      "evidence": "P2: monitoring dashboard + DQA",
+      "resourceIds": [
+        "R04",
+        "R10"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S12",
+      "name": "Field survey, XLSForm, data collection",
+      "domain": "Data",
+      "priority": "Tinggi",
+      "baseline": null,
+      "current": null,
+      "target": 4,
+      "evidence": "P2: ODK XLSForm + test",
+      "resourceIds": [
+        "R20",
+        "R21"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S13",
+      "name": "Power BI dashboard communication",
+      "domain": "Data",
+      "priority": "Tinggi",
+      "baseline": null,
+      "current": null,
+      "target": 4,
+      "evidence": "P2: dashboard + interpretation",
+      "resourceIds": [
+        "R18"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S14",
+      "name": "Policy research & desk review",
+      "domain": "Research",
+      "priority": "Kritis",
+      "baseline": null,
+      "current": null,
+      "target": 4,
+      "evidence": "P4: evidence brief + refs",
+      "resourceIds": [
+        "R24",
+        "R25"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S15",
+      "name": "GIS/remote sensing for development",
+      "domain": "GIS",
+      "priority": "Menengah",
+      "baseline": null,
+      "current": null,
+      "target": 3,
+      "evidence": "P4: map + QA metadata",
+      "resourceIds": [
+        "R22",
+        "R23"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S16",
+      "name": "Stakeholder mapping & coordination",
+      "domain": "Partnership",
+      "priority": "Tinggi",
+      "baseline": null,
+      "current": null,
+      "target": 4,
+      "evidence": "P3: stakeholder map & RACI",
+      "resourceIds": [
+        "R01"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S17",
+      "name": "Ethics, privacy, safeguarding & PSEA",
+      "domain": "Ethics",
+      "priority": "Kritis",
+      "baseline": null,
+      "current": null,
+      "target": 4,
+      "evidence": "P2: ethics & data-management plan",
+      "resourceIds": [
+        "R08",
+        "R09"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S18",
+      "name": "Tailored CV, application & competency interview",
+      "domain": "Career",
+      "priority": "Kritis",
+      "baseline": null,
+      "current": null,
+      "target": 4,
+      "evidence": "CV & STAR stories; mock panel",
+      "resourceIds": [
+        "R16",
+        "R17"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S19",
+      "name": "Sector literacy: SDG/ASEAN/climate/heritage",
+      "domain": "Domain",
+      "priority": "Tinggi",
+      "baseline": null,
+      "current": null,
+      "target": 3,
+      "evidence": "P4: donor-ready 2-page brief",
+      "resourceIds": [
+        "R12",
+        "R25",
+        "R26"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    },
+    {
+      "id": "S20",
+      "name": "Real-world delivery and references",
+      "domain": "Experience",
+      "priority": "Kritis",
+      "baseline": null,
+      "current": null,
+      "target": 3,
+      "evidence": "1 verified assignment & referee",
+      "resourceIds": [
+        "R27",
+        "R28"
+      ],
+      "status": "Belum diuji",
+      "targetWeek": 24,
+      "testMethod": "",
+      "lastTested": null
+    }
+  ],
+  "roadmap": [
+    {
+      "week": 1,
+      "start": "2026-10-13",
+      "focus": "Audit professional baseline & English writing",
+      "tasks": "Profil kompetensi; 2 contoh email formal",
+      "evidence": "1 halaman baseline; 2 email",
+      "resourceIds": [
+        "R13",
+        "R14"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 2,
+      "start": "2026-10-20",
+      "focus": "Project DPro + charter",
+      "tasks": "Project Management Essentials; 1-page charter",
+      "evidence": "Sertifikat + charter",
+      "resourceIds": [
+        "R01",
+        "R02"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 3,
+      "start": "2026-10-27",
+      "focus": "Work breakdown, workplan & RAID",
+      "tasks": "WBS, Gantt, RAID; kirim 1 EOI UNV",
+      "evidence": "Workplan, RAID v1 + 1 EOI",
+      "resourceIds": [
+        "R01",
+        "R03"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 4,
+      "start": "2026-11-03",
+      "focus": "Excel finance & expense documents",
+      "tasks": "Template budget vs actual, per diem, 8 kuitansi sintetis",
+      "evidence": "Finance workbook v1",
+      "resourceIds": [
+        "R06",
+        "R19"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 5,
+      "start": "2026-11-10",
+      "focus": "Contract, procurement, archive",
+      "tasks": "Nomor dokumen, procurement comparison, inventory",
+      "evidence": "Admin pack audit-ready",
+      "resourceIds": [
+        "R07",
+        "R15"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 6,
+      "start": "2026-11-17",
+      "focus": "P1 QA rehearsal",
+      "tasks": "Simulasi tutup-buku bulanan + internal review",
+      "evidence": "CAPSTONE P1 complete",
+      "resourceIds": [
+        "R01",
+        "R06"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 7,
+      "start": "2026-11-24",
+      "focus": "MEAL fundamentals",
+      "tasks": "Theory of Change + outcome map",
+      "evidence": "ToC dan 5 indikator",
+      "resourceIds": [
+        "R04",
+        "R05"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 8,
+      "start": "2026-12-01",
+      "focus": "Logframe & results framework",
+      "tasks": "Baseline, target, disaggregation, indicator dictionary",
+      "evidence": "Logframe + PIRS",
+      "resourceIds": [
+        "R04",
+        "R12"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 9,
+      "start": "2026-12-08",
+      "focus": "Data quality & ethics",
+      "tasks": "DQA rules, consent, data minimisation, safeguarding",
+      "evidence": "DQA + ethics plan",
+      "resourceIds": [
+        "R08",
+        "R10"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 10,
+      "start": "2026-12-15",
+      "focus": "ODK form design",
+      "tasks": "20 questions, validation, skip logic, synthetic test",
+      "evidence": "XLSForm + test log",
+      "resourceIds": [
+        "R20",
+        "R21"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 11,
+      "start": "2026-12-22",
+      "focus": "Monitoring dashboard",
+      "tasks": "Excel/Power BI indicator tracker, data quality flags",
+      "evidence": "Dashboard & interpretation",
+      "resourceIds": [
+        "R18",
+        "R11"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 12,
+      "start": "2026-12-29",
+      "focus": "P2 QA & learning memo",
+      "tasks": "Monthly donor report + learning brief",
+      "evidence": "CAPSTONE P2 complete",
+      "resourceIds": [
+        "R04",
+        "R15"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 13,
+      "start": "2027-01-05",
+      "focus": "Event concept & partner map",
+      "tasks": "Forum science/cultural diplomacy mock",
+      "evidence": "Event concept + stakeholder map",
+      "resourceIds": [
+        "R01",
+        "R15"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 14,
+      "start": "2027-01-12",
+      "focus": "Event operations",
+      "tasks": "Run of show, venue, risk, RSVP, communication",
+      "evidence": "Event pack draft",
+      "resourceIds": [
+        "R07",
+        "R14"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 15,
+      "start": "2027-01-19",
+      "focus": "Minute taking bilingual",
+      "tasks": "2 staged meetings + action tracker",
+      "evidence": "2 minutes, 1 brief",
+      "resourceIds": [
+        "R13",
+        "R15"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 16,
+      "start": "2027-01-26",
+      "focus": "Event rehearsal & follow-up",
+      "tasks": "Simulation + after action report",
+      "evidence": "CAPSTONE P3 complete",
+      "resourceIds": [
+        "R13",
+        "R15"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 17,
+      "start": "2027-02-02",
+      "focus": "Climate & heritage desk review",
+      "tasks": "Problem statement, source appraisal",
+      "evidence": "Desk research notes",
+      "resourceIds": [
+        "R25",
+        "R26"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 18,
+      "start": "2027-02-09",
+      "focus": "Open data & GIS QA",
+      "tasks": "World Bank/BPS/UNESCO layers, citations, provenance",
+      "evidence": "Data dictionary + GIS map",
+      "resourceIds": [
+        "R22",
+        "R24"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 19,
+      "start": "2027-02-16",
+      "focus": "Policy brief with limitations",
+      "tasks": "2-page evidence brief; avoid unsupported causal claims",
+      "evidence": "Policy brief ID/EN",
+      "resourceIds": [
+        "R15",
+        "R25"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 20,
+      "start": "2027-02-23",
+      "focus": "P4 QA and presentation",
+      "tasks": "10 slides; 5 minute presentation",
+      "evidence": "CAPSTONE P4 complete",
+      "resourceIds": [
+        "R23",
+        "R40"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 21,
+      "start": "2027-03-02",
+      "focus": "UNV / local organization application",
+      "tasks": "Lanjutkan assignment / kirim aplikasi batch kedua",
+      "evidence": ">=3 tailored expressions of interest",
+      "resourceIds": [
+        "R27",
+        "R28"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 22,
+      "start": "2027-03-09",
+      "focus": "Actual assignment or simulated client review",
+      "tasks": "Get external feedback; otherwise peer challenge",
+      "evidence": "Reference/evidence or reviewed work",
+      "resourceIds": [
+        "R27",
+        "R29"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 23,
+      "start": "2027-03-16",
+      "focus": "ATS, cover letter, selection exercises",
+      "tasks": "3 tailored application sets, mock 60-min written test",
+      "evidence": "CV + 3 cover letters + tests",
+      "resourceIds": [
+        "R16",
+        "R17"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    },
+    {
+      "week": 24,
+      "start": "2027-03-23",
+      "focus": "Interview & final readiness audit",
+      "tasks": "6 STAR stories, panel simulation, portfolio review",
+      "evidence": "Exit scorecard + next-90-day plan",
+      "resourceIds": [
+        "R16",
+        "R17"
+      ],
+      "status": "Belum mulai",
+      "doneDate": null,
+      "qaScore": null,
+      "qaNote": "",
+      "evidenceLink": ""
+    }
+  ],
+  "resources": [
+    {
+      "id": "R01",
+      "domain": "Project management",
+      "name": "Project DPro Guide (PM4NGOs)",
+      "why": "Panduan manajemen proyek pembangunan; tersedia edisi Bahasa Indonesia",
+      "url": "https://pm4ngos.org/methodologies-guides/project-dpro/",
+      "cost": "Gratis; ujian sertifikasi terpisah",
+      "when": "W1-5",
+      "usedIn": "P1,P3",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R02",
+      "domain": "Project management",
+      "name": "Project Management Essentials (DisasterReady)",
+      "why": "Sertifikat berbasis asesmen sekitar 5 jam; selaras Project DPro",
+      "url": "https://www.disasterready.org/free-certificate-project-management",
+      "cost": "Gratis + sertifikat",
+      "when": "W1-2",
+      "usedIn": "P1",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R03",
+      "domain": "Project management",
+      "name": "PM4NGOs Templates & Starter",
+      "why": "Template proyek, latihan dan asesmen kompetensi",
+      "url": "https://pm4ngos.org/candidates-and-learners/learning-resources/",
+      "cost": "Gratis",
+      "when": "W2-6",
+      "usedIn": "P1",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R04",
+      "domain": "MEAL",
+      "name": "MEAL DPro Guide (PM4NGOs)",
+      "why": "Logframe, evaluasi, akuntabilitas dan pembelajaran",
+      "url": "https://pm4ngos.org/methodologies-guides/meal-dpro/",
+      "cost": "Panduan gratis; ujian terpisah",
+      "when": "W7-11",
+      "usedIn": "P2",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R05",
+      "domain": "MEAL",
+      "name": "DisasterReady MEAL Essentials",
+      "why": "Program sertifikat MEAL berbasis asesmen",
+      "url": "https://www.disasterready.org/certifications",
+      "cost": "Gratis + sertifikat",
+      "when": "W7-8",
+      "usedIn": "P2",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R06",
+      "domain": "Finance",
+      "name": "Finance DPro (PM4NGOs)",
+      "why": "Dasar tata kelola keuangan proyek NGO",
+      "url": "https://pm4ngos.org/methodologies-guides/finance-dpro/",
+      "cost": "Panduan gratis; ujian terpisah",
+      "when": "W4-6",
+      "usedIn": "P1",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R07",
+      "domain": "Procurement",
+      "name": "DisasterReady Procurement & Logistics",
+      "why": "Procurement, inventaris, gudang dan logistik; ~5 jam",
+      "url": "https://www.disasterready.org/procurement-logistics-certificate",
+      "cost": "Gratis + sertifikat",
+      "when": "W5-6",
+      "usedIn": "P1",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R08",
+      "domain": "Ethics",
+      "name": "Core Humanitarian Standard 2024",
+      "why": "Akuntabilitas kepada komunitas; tersedia bahasa Indonesia",
+      "url": "https://www.corehumanitarianstandard.org/languages",
+      "cost": "Gratis",
+      "when": "W10-12",
+      "usedIn": "P2",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R09",
+      "domain": "Ethics",
+      "name": "UNICEF Agora — PSEA",
+      "why": "Perlindungan dari eksploitasi dan pelecehan seksual",
+      "url": "https://agora.unicef.org/course/info.php?id=30526",
+      "cost": "Akses kursus perlu diperiksa",
+      "when": "W11",
+      "usedIn": "P2",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R10",
+      "domain": "M&E",
+      "name": "USAID CLA framework",
+      "why": "Collaborating, Learning and Adapting",
+      "url": "https://usaidlearninglab.org/",
+      "cost": "Gratis",
+      "when": "W9-11",
+      "usedIn": "P2",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R11",
+      "domain": "M&E",
+      "name": "BetterEvaluation",
+      "why": "Sumber metode dan perencanaan evaluasi",
+      "url": "https://www.betterevaluation.org/",
+      "cost": "Gratis/bervariasi",
+      "when": "W8-12",
+      "usedIn": "P2",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R12",
+      "domain": "RBM",
+      "name": "UNSSC Results-Based Management",
+      "why": "Theory of change, results frameworks, M&E",
+      "url": "https://www.unssc.org/courses/results-based-management-support-2030-agenda-2nd-edition",
+      "cost": "Cek biaya & periode penyelenggaraan",
+      "when": "W8-12",
+      "usedIn": "P2",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R13",
+      "domain": "Professional English",
+      "name": "British Council — Writing B2",
+      "why": "CV, covering email, laporan profesional",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/writing/b2",
+      "cost": "Gratis",
+      "when": "W1-24",
+      "usedIn": "Semua",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R14",
+      "domain": "Professional English",
+      "name": "British Council — Business English",
+      "why": "Komunikasi bisnis, wawancara, korespondensi",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/business",
+      "cost": "Gratis",
+      "when": "W1-24",
+      "usedIn": "Semua",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R15",
+      "domain": "Professional writing",
+      "name": "UN Editorial Manual",
+      "why": "Standar penulisan ringkas, notula dan laporan",
+      "url": "https://www.un.org/dgacm/en/content/editorial-manual/reports-intergov-bodies",
+      "cost": "Gratis",
+      "when": "W3-5",
+      "usedIn": "P1,P3",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R16",
+      "domain": "Interview",
+      "name": "UN Careers — How to Apply",
+      "why": "Persiapan competency-based interview",
+      "url": "https://careers.un.org/how-to-apply",
+      "cost": "Gratis",
+      "when": "W17-24",
+      "usedIn": "Semua",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R17",
+      "domain": "Interview",
+      "name": "UN Careers — Assessment",
+      "why": "Contoh bentuk tes tertulis, presentasi & wawancara",
+      "url": "https://careers.un.org/assessment",
+      "cost": "Gratis",
+      "when": "W17-24",
+      "usedIn": "Semua",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R18",
+      "domain": "Excel & BI",
+      "name": "Microsoft Learn — Power BI",
+      "why": "Power Query, pemodelan, dashboards",
+      "url": "https://learn.microsoft.com/training/powerplatform/power-bi/",
+      "cost": "Materi gratis; ujian opsional berbayar",
+      "when": "W4-10",
+      "usedIn": "P1,P2",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R19",
+      "domain": "Excel & BI",
+      "name": "Microsoft Power Pivot",
+      "why": "Model data, relasi dan analitik Excel",
+      "url": "https://support.microsoft.com/id-id/excel/power-pivot-overview-and-learning",
+      "cost": "Gratis",
+      "when": "W4-6",
+      "usedIn": "P1",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R20",
+      "domain": "Survey",
+      "name": "ODK XLSForm Tutorial",
+      "why": "Rancang survei dengan validasi dan skip logic",
+      "url": "https://docs.getodk.org/tutorial-first-form/",
+      "cost": "Dokumentasi gratis",
+      "when": "W10-11",
+      "usedIn": "P2",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R21",
+      "domain": "Survey",
+      "name": "ODK Getting Started",
+      "why": "Survei lapangan offline dan alur data",
+      "url": "https://docs.getodk.org/getting-started/",
+      "cost": "Dokumentasi gratis; hosting bisa berbiaya",
+      "when": "W10-12",
+      "usedIn": "P2",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R22",
+      "domain": "Geospatial",
+      "name": "QGIS Official Training Manual",
+      "why": "Analisis GIS dan desain peta profesional",
+      "url": "https://docs.qgis.org/latest/en/docs/training_manual/",
+      "cost": "Gratis",
+      "when": "W17-20",
+      "usedIn": "P4",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R23",
+      "domain": "Geospatial",
+      "name": "NASA ARSET Training",
+      "why": "Pelatihan penginderaan jauh dan bencana",
+      "url": "https://www.earthdata.nasa.gov/data/projects/arset",
+      "cost": "Pelatihan umumnya gratis; cek sesi",
+      "when": "W17-20",
+      "usedIn": "P4",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R24",
+      "domain": "Data",
+      "name": "World Bank Data — Indonesia",
+      "why": "Data pembangunan lintas sektor",
+      "url": "https://data.worldbank.org/country/indonesia",
+      "cost": "Gratis",
+      "when": "W8-20",
+      "usedIn": "P2,P4",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R25",
+      "domain": "Climate",
+      "name": "WB Climate Change Knowledge Portal — Indonesia",
+      "why": "Latar kebijakan dan risiko iklim untuk studi kasus",
+      "url": "https://climateknowledgeportal.worldbank.org/country/indonesia/resources",
+      "cost": "Data/publikasi gratis; sebagian fitur butuh JS",
+      "when": "W17-20",
+      "usedIn": "P4",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R26",
+      "domain": "Heritage",
+      "name": "UNESCO World Heritage — Indonesia",
+      "why": "Daftar warisan dan dokumen terbitan publik",
+      "url": "https://whc.unesco.org/en/statesparties/id",
+      "cost": "Gratis",
+      "when": "W17-20",
+      "usedIn": "P4",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R27",
+      "domain": "Volunteering",
+      "name": "UNV — Become Online Volunteer",
+      "why": "Penugasan jarak jauh berbasis kontribusi nyata; tidak dibayar",
+      "url": "https://www.unv.org/become-online-volunteer?page=1",
+      "cost": "Gratis; tidak dibayar",
+      "when": "W3-24",
+      "usedIn": "Semua",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R28",
+      "domain": "Volunteering",
+      "name": "UNV Unified Volunteering Platform",
+      "why": "Pencarian tugas online, associate dan community volunteer",
+      "url": "https://app.unv.org/",
+      "cost": "Gratis; perlu profil",
+      "when": "W3-24",
+      "usedIn": "Semua",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R29",
+      "domain": "Professional network",
+      "name": "PM4NGOs Community & resources",
+      "why": "Jejaring praktisi dan template industri",
+      "url": "https://pm4ngos.org/candidates-and-learners/learning-resources/",
+      "cost": "Gratis",
+      "when": "W4-24",
+      "usedIn": "Semua",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R30",
+      "domain": "Job source",
+      "name": "UNDP Jobs",
+      "why": "Portal karier resmi UNDP",
+      "url": "https://jobs.undp.org/",
+      "cost": "Gratis",
+      "when": "W1-24",
+      "usedIn": "Semua",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R31",
+      "domain": "Job source",
+      "name": "IOM Careers",
+      "why": "Karier dan project support bidang migrasi",
+      "url": "https://www.iom.int/careers",
+      "cost": "Gratis",
+      "when": "W1-24",
+      "usedIn": "Semua",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R32",
+      "domain": "Job source",
+      "name": "UN Careers",
+      "why": "Lowongan sekretariat dan peluang magang",
+      "url": "https://careers.un.org/",
+      "cost": "Gratis",
+      "when": "W1-24",
+      "usedIn": "Semua",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R33",
+      "domain": "Job source",
+      "name": "UNOPS Careers",
+      "why": "Project support, procurement, operations",
+      "url": "https://jobs.unops.org/",
+      "cost": "Gratis",
+      "when": "W1-24",
+      "usedIn": "Semua",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R34",
+      "domain": "Job source",
+      "name": "GIZ Career",
+      "why": "Trainee dan staf kerja sama pembangunan",
+      "url": "https://www.giz.de/en/jobs",
+      "cost": "Gratis",
+      "when": "W1-24",
+      "usedIn": "Semua",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R35",
+      "domain": "Job source",
+      "name": "ReliefWeb Jobs",
+      "why": "Agregator lowongan development dan humanitarian",
+      "url": "https://reliefweb.int/jobs",
+      "cost": "Gratis",
+      "when": "W1-24",
+      "usedIn": "Semua",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R36",
+      "domain": "Job source",
+      "name": "DevJobsIndo",
+      "why": "Lowongan NGO/programme/riset Indonesia",
+      "url": "https://devjobsindo.org/",
+      "cost": "Gratis; verifikasi sumber primer",
+      "when": "W1-24",
+      "usedIn": "Semua",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R37",
+      "domain": "Job source",
+      "name": "Impactpool",
+      "why": "Agregator organisasi internasional",
+      "url": "https://www.impactpool.org/",
+      "cost": "Fitur bervariasi; verifikasi sumber primer",
+      "when": "W1-24",
+      "usedIn": "Semua",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R38",
+      "domain": "Job source",
+      "name": "EFEO/IFI Careers",
+      "why": "Lembaga riset Prancis di Indonesia",
+      "url": "https://www.ifi-id.com/job-offer-from-efeo-project-assistant-for-aliph-funded-programme/",
+      "cost": "Contoh lowongan; 18 Okt 2026",
+      "when": "W1-24",
+      "usedIn": "P1,P4",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R39",
+      "domain": "Job source",
+      "name": "ASEAN-IPR Opportunities",
+      "why": "Lowongan institut ASEAN",
+      "url": "https://asean-aipr.org/resources/opportunities/",
+      "cost": "Gratis",
+      "when": "W1-24",
+      "usedIn": "P3",
+      "status": "Belum dibuka",
+      "doneDate": null
+    },
+    {
+      "id": "R40",
+      "domain": "Rhetoric",
+      "name": "HarvardX Rhetoric (edX)",
+      "why": "Tulisan argumentatif dan public speaking",
+      "url": "https://www.edx.org/learn/rhetoric/harvard-university-rhetoric-the-art-of-persuasive-writing-and-public-speaking",
+      "cost": "Audit gratis jika tersedia; sertifikat berbayar",
+      "when": "W17-20",
+      "usedIn": "P3",
+      "status": "Belum dibuka",
+      "doneDate": null
+    }
+  ],
+  "capstones": [
+    {
+      "id": "P1",
+      "name": "ALIPH-style Project Operations",
+      "track": "Finance & administrative excellence",
+      "period": "W2–W6",
+      "outputs": "Charter, WBS, Gantt, RAID, budget, per diem, invoice register, monthly report, archive",
+      "gate": "No arithmetic discrepancy; fully traceable; audit-ready",
+      "status": "Belum mulai",
+      "provenance": "SIMULASI; bukan pengalaman EFEO",
+      "evidenceLinks": [],
+      "notes": ""
+    },
+    {
+      "id": "P2",
+      "name": "Development Programme MEAL",
+      "track": "M&E & programme data",
+      "period": "W7–W12",
+      "outputs": "ToC, logframe, 8 indicator PIRS, ODK form, DQA, dashboard, donor report",
+      "gate": "10 test cases; fully documented data issues",
+      "status": "Belum mulai",
+      "provenance": "Gunakan data sintetis/terbuka berizin",
+      "evidenceLinks": [],
+      "notes": ""
+    },
+    {
+      "id": "P3",
+      "name": "Bilingual Embassy-Partner Workshop",
+      "track": "Events & international communications",
+      "period": "W13–W16",
+      "outputs": "Concept note, stakeholder map, RACI, RSVP, run of show, emails, bilingual minutes, AAR",
+      "gate": "Two realistic scenario changes handled",
+      "status": "Belum mulai",
+      "provenance": "SIMULASI; tidak menggunakan logo kedutaan",
+      "evidenceLinks": [],
+      "notes": ""
+    },
+    {
+      "id": "P4",
+      "name": "Climate-Heritage Risk Evidence Brief",
+      "track": "Research & GIS",
+      "period": "W17–W20",
+      "outputs": "Literature review, data dictionary, GIS map, vulnerability caveats, 2-page policy brief",
+      "gate": "Every figure cited; limitations explicit",
+      "status": "Belum mulai",
+      "provenance": "SIMULASI dengan data publik; bukan kajian resmi",
+      "evidenceLinks": [],
+      "notes": ""
+    }
+  ],
+  "benchmark": [
+    {
+      "org": "EFEO",
+      "position": "Project Assistant ALIPH",
+      "deadline": "2026-10-18",
+      "location": "Jakarta",
+      "formalReq": "39h/week; full-time",
+      "competencies": "Administrasi, Excel finance, dokumentasi, per diem, logistik, bahasa Inggris",
+      "skillIds": [
+        "S01",
+        "S02",
+        "S03",
+        "S05",
+        "S07",
+        "S08"
+      ],
+      "statusNote": "Tengah periode buka pada 13 Okt; evaluasi sendiri dahulu",
+      "url": "https://www.ifi-id.com/job-offer-from-efeo-project-assistant-for-aliph-funded-programme/"
+    },
+    {
+      "org": "IOM",
+      "position": "Project Assistant CTLM",
+      "deadline": "2026-08-19",
+      "location": "Jakarta",
+      "formalReq": "BSc+1 yr relevan / SMA+3 yr",
+      "competencies": "Workshop, translation, statistical tables, M&E, MS Office",
+      "skillIds": [
+        "S06",
+        "S07",
+        "S08",
+        "S10",
+        "S11"
+      ],
+      "statusNote": "Sudah tutup; benchmark",
+      "url": "https://www.impactpool.org/jobs/1231348"
+    },
+    {
+      "org": "GIZ",
+      "position": "Trainee on Project Assistant TRACE/3RproMarII",
+      "deadline": "2026-07-21",
+      "location": "Jakarta",
+      "formalReq": "Mahasiswa yang terdaftar atau lulusan <=1 tahun; cek detail iklan",
+      "competencies": "Workshop, publikasi, knowledge management, Microsoft Office, Inggris",
+      "skillIds": [
+        "S03",
+        "S06",
+        "S07",
+        "S08",
+        "S16"
+      ],
+      "statusNote": "Sudah tutup; jalur masuk realistis",
+      "url": "https://jobs.energytransitions.id/lowongan/255-trainee-on-project-assistant-project-trace-3rpromar2"
+    },
+    {
+      "org": "ASEAN-IPR",
+      "position": "Project Assistant",
+      "deadline": "2026-03-25",
+      "location": "Jakarta",
+      "formalReq": "Sarjana + 2 th pengalaman relevan (contoh 2026)",
+      "competencies": "Briefing, desk research, schedule, minutes, progress",
+      "skillIds": [
+        "S04",
+        "S07",
+        "S08",
+        "S14"
+      ],
+      "statusNote": "Sudah tutup; tujuan menengah",
+      "url": "https://www.asean-aipr.org/media/library/vacancy-project-assistant-2026.pdf"
+    },
+    {
+      "org": "UNFPA",
+      "position": "Programme Assistant Planning Monitoring & Evaluation",
+      "deadline": null,
+      "location": "Jakarta",
+      "formalReq": "Pengalaman 5 th pada contoh lowongan",
+      "competencies": "Annual workplan, RBM, report, logistics, records",
+      "skillIds": [
+        "S02",
+        "S06",
+        "S07",
+        "S10",
+        "S11"
+      ],
+      "statusNote": "Benchmark senioritas; jangan diasumsikan terbuka",
+      "url": "https://www.unfpa.org/jobs/programme-assistant-planning-monitoring-and-evaluation-pme-jakarta-indonesia-gs-5"
+    },
+    {
+      "org": "FAO",
+      "position": "National Project Assistant MERANTI",
+      "deadline": "2026-09-02",
+      "location": "Indonesia",
+      "formalReq": "Periksa syarat spesifik per iklan",
+      "competencies": "Forest remote sensing / inventory & project support",
+      "skillIds": [
+        "S10",
+        "S11",
+        "S14",
+        "S15"
+      ],
+      "statusNote": "Sudah tutup; jalur GIS+iklim",
+      "url": "https://fao.impactpool.org/vacancies/1232350"
+    },
+    {
+      "org": "AJI",
+      "position": "Project Assistant Jakarta",
+      "deadline": "2026-10-06",
+      "location": "Jakarta",
+      "formalReq": "S1 + NGO 1–2 tahun (contoh iklan)",
+      "competencies": "Koordinasi, administrasi, publikasi, Office",
+      "skillIds": [
+        "S01",
+        "S06",
+        "S07",
+        "S16"
+      ],
+      "statusNote": "Sudah tutup; benchmark NGO lokal",
+      "url": "https://mail.aji.or.id/agenda/open-recruitment-project-assistant-jakarta"
+    }
+  ],
+  "applications": [],
+  "quickstart": [
+    {
+      "id": "Q1",
+      "date": "2026-10-13",
+      "action": "Bangun CV ID & EN",
+      "outcome": "Buat 2 versi dasar, jangan klaim kerja yang belum dilakukan",
+      "status": "Belum mulai",
+      "link": "",
+      "note": ""
+    },
+    {
+      "id": "Q2",
+      "date": "2026-10-13",
+      "action": "Profil UNV",
+      "outcome": "Buat profil dan cari task online realistis",
+      "status": "Belum mulai",
+      "link": "",
+      "note": ""
+    },
+    {
+      "id": "Q3",
+      "date": "2026-10-13",
+      "action": "DisasterReady",
+      "outcome": "Buat akun dan ambil Project Management Essentials",
+      "status": "Belum mulai",
+      "link": "",
+      "note": ""
+    },
+    {
+      "id": "Q4",
+      "date": "2026-10-13",
+      "action": "Audit aturan akademik",
+      "outcome": "Tanyakan aturan magang/kerja sampingan dan ijazah",
+      "status": "Belum mulai",
+      "link": "",
+      "note": ""
+    },
+    {
+      "id": "Q5",
+      "date": "2026-10-13",
+      "action": "Pilih capstone P1",
+      "outcome": "Buat project folder dan project charter",
+      "status": "Belum mulai",
+      "link": "",
+      "note": ""
+    }
+  ],
+  "weeklyReviews": [
+    {
+      "week": 1,
+      "date": "2026-10-18",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 2,
+      "date": "2026-10-25",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 3,
+      "date": "2026-11-01",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 4,
+      "date": "2026-11-08",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 5,
+      "date": "2026-11-15",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 6,
+      "date": "2026-11-22",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 7,
+      "date": "2026-11-29",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 8,
+      "date": "2026-12-06",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 9,
+      "date": "2026-12-13",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 10,
+      "date": "2026-12-20",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 11,
+      "date": "2026-12-27",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 12,
+      "date": "2027-01-03",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 13,
+      "date": "2027-01-10",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 14,
+      "date": "2027-01-17",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 15,
+      "date": "2027-01-24",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 16,
+      "date": "2027-01-31",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 17,
+      "date": "2027-02-07",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 18,
+      "date": "2027-02-14",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 19,
+      "date": "2027-02-21",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 20,
+      "date": "2027-02-28",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 21,
+      "date": "2027-03-07",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 22,
+      "date": "2027-03-14",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 23,
+      "date": "2027-03-21",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    },
+    {
+      "week": 24,
+      "date": "2027-03-28",
+      "hours": null,
+      "newEvidence": "",
+      "skillsTested": "",
+      "englishSessions": null,
+      "applications": "",
+      "blockers": "",
+      "nextActions": ""
+    }
+  ]
+}

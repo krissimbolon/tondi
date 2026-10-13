@@ -1,0 +1,18 @@
+{
+  "format": "tondi/public-v1",
+  "publicProfile": {
+    "name": "",
+    "headline": "",
+    "location": "",
+    "summary": "",
+    "availability": "",
+    "email": "",
+    "linkedin": "",
+    "github": "",
+    "institution": "",
+    "degree": "",
+    "educationPeriod": "",
+    "languages": []
+  },
+  "achievements": []
+}

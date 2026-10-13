@@ -1,0 +1,21 @@
+{
+  "id": "example-training-2026-001",
+  "type": "pelatihan",
+  "title": "CONTOH DATA: Nama pelatihan yang sudah dicek",
+  "organizer": "CONTOH DATA: Penyelenggara",
+  "description": "Contoh struktur, bukan kesempatan nyata; jangan impor sebagai event sungguhan.",
+  "sourceUrl": "https://example.org/training",
+  "registrationUrl": "",
+  "deadline": null,
+  "startDate": null,
+  "endDate": null,
+  "mode": "online",
+  "location": "",
+  "cost": "Belum diketahui",
+  "eligibility": "",
+  "tags": ["research", "project-operations"],
+  "status": "discovered",
+  "sourceKind": "unverified",
+  "verifiedAt": null,
+  "notes": "Verifikasi dari sumber primer sebelum mengubah status menjadi open."
+}

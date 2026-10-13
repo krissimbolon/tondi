@@ -1,0 +1,40 @@
+{
+  "format": "tondi/import-v1",
+  "opportunities": [],
+  "achievements": [
+    {
+      "id": "demo-record-do-not-use",
+      "title": "DEMO — illustrative team process measurement",
+      "organization": "Example institution",
+      "provenance": "simulation",
+      "resultStatus": "completed",
+      "contribution": "Illustrative example only, not a real achievement.",
+      "publiclyVisible": false,
+      "evidences": [
+        {
+          "id": "demo-proof",
+          "label": "Illustrative method note",
+          "url": "https://example.org/method",
+          "type": "report",
+          "visibility": "private",
+          "issuer": ""
+        }
+      ],
+      "metrics": [
+        {
+          "id": "demo-metric",
+          "label": "Processing time",
+          "kind": "before_after",
+          "unit": "minutes",
+          "baseline": 40,
+          "result": 25,
+          "sampleSize": 30,
+          "method": "Hypothetical values for schema illustration only. Do not publish.",
+          "evidenceIds": ["demo-proof"],
+          "claimScope": "team",
+          "allowedInCv": false
+        }
+      ]
+    }
+  ]
+}

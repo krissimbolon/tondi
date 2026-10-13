@@ -1,0 +1,28 @@
+{
+  "format": "tondi/import-v1",
+  "opportunities": [
+    {
+      "id": "example-opportunity-one",
+      "type": "event",
+      "title": "CONTOH DATA: Forum internasional",
+      "organizer": "CONTOH DATA: Mitra pendidikan",
+      "sourceUrl": "https://example.org/events/forum",
+      "deadline": null,
+      "status": "discovered",
+      "sourceKind": "unverified",
+      "tags": ["diplomacy", "policy"]
+    },
+    {
+      "id": "example-opportunity-two",
+      "type": "lomba",
+      "title": "CONTOH DATA: Kompetisi analitik",
+      "organizer": "CONTOH DATA: Penyelenggara kompetisi",
+      "sourceUrl": "https://example.org/competition",
+      "deadline": null,
+      "status": "discovered",
+      "sourceKind": "unverified",
+      "tags": ["data", "challenge"]
+    }
+  ],
+  "achievements": []
+}

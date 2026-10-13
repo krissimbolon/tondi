@@ -1,0 +1,9 @@
+{
+  "name": "Tondi",
+  "short_name": "Tondi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#172a35",
+  "description": "Evidence-backed professional growth"
+}
