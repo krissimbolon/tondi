@@ -43,11 +43,12 @@ jobs:
       - name: Commit verified source to main
         shell: bash
         run: |
-          rm -rf .bootstrap .github/workflows/bootstrap-tondi.yml
+          rm -rf .bootstrap
+          rm -f .github/workflows/ci.yml
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           if ! git diff --cached --quiet; then
-            git commit -m "feat: restore complete Tondi v2.1 source (101 files)"
+            git commit -m "feat: restore Tondi v2.1 application source"
             git push origin HEAD:main
           fi
