@@ -1,0 +1,53 @@
+name: Restore Tondi source
+on:
+  push:
+    paths:
+      - ".bootstrap/**"
+      - ".github/workflows/bootstrap-tondi.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Verify and unpack source archive
+        shell: bash
+        run: |
+          python - <<'PY'
+          import base64, hashlib, io, lzma, shutil, tarfile
+          from pathlib import Path
+          parts = sorted(Path(".bootstrap").glob("part-*.txt"))
+          assert len(parts) == 8, f"Expected 8 parts, received {len(parts)}"
+          encoded = "".join(p.read_text(encoding="utf-8").strip() for p in parts)
+          assert len(encoded) == 113496, "Unexpected transfer length"
+          raw = lzma.decompress(base64.b64decode(encoded, validate=True))
+          checksum = hashlib.sha256(raw).hexdigest()
+          assert checksum == "5af00f6ea32c59d129d463099558db2566da19d0e2a0502e8d99da35aff5f840", "Source archive checksum mismatch"
+          with tarfile.open(fileobj=io.BytesIO(raw), mode="r:") as tar:
+              members = tar.getmembers()
+              assert len(members) == 101, f"Expected 101 files, received {len(members)}"
+              for member in members:
+                  relative = Path(member.name)
+                  if not member.isfile() or relative.is_absolute() or ".." in relative.parts or relative.parts[0] in (".git", ".bootstrap"):
+                      raise RuntimeError(f"Unsafe source path: {member.name}")
+                  dst = Path(".") / relative
+                  dst.parent.mkdir(parents=True, exist_ok=True)
+                  with tar.extractfile(member) as source, dst.open("wb") as target:
+                      shutil.copyfileobj(source, target)
+          print(f"Restored {len(members)} verified Tondi files")
+          PY
+      - name: Commit verified source to main
+        shell: bash
+        run: |
+          rm -rf .bootstrap .github/workflows/bootstrap-tondi.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "feat: restore complete Tondi v2.1 source (101 files)"
+            git push origin HEAD:main
+          fi
