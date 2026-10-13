@@ -38,7 +38,7 @@ export default function Benchmark() {
             <div className="row" style={{ marginBottom: 10 }}>
               {b.skillIds.map((sid) => (
                 <span key={sid} title={`Skill benchmark ${sid}. Bandingkan dengan bukti proyek/tes yang kamu simpan, bukan skor diri.`}>
-                  <Badge tone="neutral">{sid}{skills.has(sid.toLowerCase()) ? ' · ada bukti' : ''}</Badge>
+                  <Badge tone="neutral">{`${sid}${skills.has(sid.toLowerCase()) ? ' · ada bukti' : ''}`}</Badge>
                 </span>
               ))}
             </div>

@@ -234,7 +234,7 @@ export const publicProfileSchema = z.object({
   degree: z.string().max(220).default(''),
   educationPeriod: z.string().max(120).default(''),
   languages: z.array(z.object({name:z.string(),evidence:z.string()})).default([]),
-}).default({})
+}).prefault({})
 
 export const trackerDataSchema = z.object({
   schemaVersion: z.literal(SCHEMA_VERSION),
