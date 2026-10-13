@@ -1,5 +1,5 @@
-import rawSeed from './seed.json'
-import { trackerDataSchema, type TrackerData } from '../domain/schema'
+import rawSeed from './seed.json' with { type: 'json' }
+import { trackerDataSchema, type TrackerData } from '../domain/schema.js'
 
 /**
  * Initial data, converted 1:1 from Career_Launchpad_Tracker.xlsx (13 Oct 2026 edition).

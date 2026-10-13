@@ -1,8 +1,8 @@
-import { authenticated } from './lib/auth'
-import { getDraft, writeDraft } from './lib/db'
-import { json, readJson, sameOrigin } from './lib/http'
-import { trackerDataSchema } from '../src/domain/schema'
-import { createSeed } from '../src/data/seed'
+import { authenticated } from './lib/auth.js'
+import { getDraft, writeDraft } from './lib/db.js'
+import { json, readJson, sameOrigin } from './lib/http.js'
+import { trackerDataSchema } from '../src/domain/schema.js'
+import { createSeed } from '../src/data/seed.js'
 export async function GET(req:Request){
   if(!authenticated(req))return json({error:'Unauthorized'},401)
   try{const doc=await getDraft();return json(doc?{data:doc.draft,version:doc.version}:{data:createSeed(),version:0})}

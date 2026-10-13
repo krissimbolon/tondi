@@ -1,6 +1,6 @@
 import { neon } from '@neondatabase/serverless'
-import type { TrackerData } from '../../src/domain/schema'
-import type { Publication } from '../../src/domain/publication'
+import type { TrackerData } from '../../src/domain/schema.js'
+import type { Publication } from '../../src/domain/publication.js'
 export function sql(){if(!process.env.DATABASE_URL)throw new Error('Database not configured');return neon(process.env.DATABASE_URL)}
 export async function getDraft(){
   const rows=await sql()`SELECT draft, version FROM tondi_documents WHERE id=1`

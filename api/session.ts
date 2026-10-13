@@ -1,7 +1,7 @@
 import { createHmac } from 'node:crypto'
-import { authenticated, clearCookie, configured, passwordValid, sessionCookie } from './lib/auth'
-import { failures, registerFailedLogin } from './lib/db'
-import { json, readJson, sameOrigin } from './lib/http'
+import { authenticated, clearCookie, configured, passwordValid, sessionCookie } from './lib/auth.js'
+import { failures, registerFailedLogin } from './lib/db.js'
+import { json, readJson, sameOrigin } from './lib/http.js'
 export function GET(req:Request){return json({authenticated:authenticated(req),configured:configured()})}
 export async function POST(req:Request){
   if(!sameOrigin(req))return json({error:'Origin mismatch'},403)

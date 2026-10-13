@@ -1,8 +1,8 @@
-import { authenticated } from './lib/auth'
-import { getDraft, getPublication, publish } from './lib/db'
-import { json, readJson, sameOrigin } from './lib/http'
-import { publishablePackage } from '../src/domain/publication'
-import { trackerDataSchema } from '../src/domain/schema'
+import { authenticated } from './lib/auth.js'
+import { getDraft, getPublication, publish } from './lib/db.js'
+import { json, readJson, sameOrigin } from './lib/http.js'
+import { publishablePackage } from '../src/domain/publication.js'
+import { trackerDataSchema } from '../src/domain/schema.js'
 export async function GET(){
   try{const doc=await getPublication();return json(doc?.published||{format:'tondi/public-v1',publicProfile:{name:'',headline:'',location:'',summary:'',availability:'',email:'',linkedin:'',github:'',institution:'',degree:'',educationPeriod:'',languages:[]},achievements:[]})}
   catch{return json({error:'Publication unavailable'},503)}

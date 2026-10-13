@@ -1,6 +1,6 @@
-import published from '../data/published.json'
+import published from '../data/published.json' with { type: 'json' }
 import { z } from 'zod'
-import { achievementSchema, publicProfileSchema, type Achievement, type PublicProfile } from './schema'
+import { achievementSchema, publicProfileSchema, type Achievement, type PublicProfile } from './schema.js'
 
 export const publicationSchema=z.object({
   format:z.literal('tondi/public-v1'),
