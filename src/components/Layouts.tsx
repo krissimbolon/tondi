@@ -1,12 +1,10 @@
 import { CloudGate } from '../cloud/TondiCloud'
 import { Link, NavLink, Outlet, ScrollRestoration } from 'react-router'
-import { usePublicView } from '../domain/public-view'
 import { ThemeToggle } from './ThemeToggle'
 
 const YEAR = new Date().getFullYear()
 
 function Header({ children }: { children: React.ReactNode }) {
-  const {publicProfile: profile}=usePublicView()
   return (
     <header className="site-header">
       <div className="container">
@@ -26,7 +24,6 @@ function Header({ children }: { children: React.ReactNode }) {
 }
 
 export function PublicLayout() {
-  const {publicProfile: profile}=usePublicView()
   return (
     <>
       <a className="skip-link" href="#main">

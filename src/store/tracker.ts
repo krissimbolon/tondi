@@ -2,8 +2,6 @@ import { create } from 'zustand'
 import { createSeed } from '../data/seed'
 import { todayIso } from '../domain/dates'
 import {
-  SCHEMA_VERSION,
-  trackerDataSchema,
   type Application,
   type Opportunity,
   type Achievement,

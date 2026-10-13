@@ -14,6 +14,7 @@ interface CloudContextValue {
   retry:()=>void;
 }
 const Context=createContext<CloudContextValue|null>(null)
+// oxlint-disable-next-line react-refresh/only-export-components
 export function useTondiCloud(){const c=useContext(Context);if(!c)throw new Error('TondiCloud provider missing');return c}
 const api=(url:string,init?:RequestInit)=>fetch(url,{credentials:'same-origin',cache:'no-store',...init})
 const body=(x:unknown)=>({method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(x)})
@@ -25,6 +26,7 @@ export function CloudGate({children}:{children:React.ReactNode}){
   const busy=useRef(false), blocked=useRef(false),unsub=useRef<(()=>void)|null>(null)
   const stop=useCallback(()=>{if(timer.current)clearTimeout(timer.current);timer.current=null;unsub.current?.();unsub.current=null},[])
   const download=()=>downloadText(backupFileName(new Date()),JSON.stringify(createBackup(useTracker.getState().data,new Date()),null,2))
+  // oxlint-disable-next-line react-hooks/preserve-manual-memoization
   const flush=useCallback(async ():Promise<boolean>=>{
     if(busy.current||blocked.current)return false
     const data=useTracker.getState().data,serialized=JSON.stringify(data)
@@ -78,7 +80,7 @@ export function CloudGate({children}:{children:React.ReactNode}){
     return `Berhasil diterbitkan: ${d.achievements} capaian publik. Perubahan tampil bagi semua pengunjung.`
   }
   return <Context.Provider value={{mode,sync,message,version,login,logout,publish,retry:()=>{if(mode==='ready'){blocked.current=false;void flush()}else void load()}}}>
-    {mode==='ready'?<><UnsavedGuard pending={sync!=='tersimpan'} onBackup={download}/><div className="cloud-banner" role="status"><span><strong>Tondi Studio</strong> · {sync} · revisi {version}</span><button className="btn btn-sm" onClick={()=>void logout()}>Keluar</button></div>{message&&<div className="callout callout-warn">{message}<button className="btn btn-sm" onClick={download}>Unduh backup</button><button className="btn btn-sm" onClick={()=>{blocked.current=false;void flush()}}>Ulangi simpan</button></div>}{children}</>:
+    {mode==='ready'?<><UnsavedGuard pending={sync!=='tersimpan'} onBackup={download}/><output className="cloud-banner"><span><strong>Tondi Studio</strong> · {sync} · revisi {version}</span><button className="btn btn-sm" onClick={()=>void logout()}>Keluar</button></output>{message&&<div className="callout callout-warn">{message}<button className="btn btn-sm" onClick={download}>Unduh backup</button><button className="btn btn-sm" onClick={()=>{blocked.current=false;void flush()}}>Ulangi simpan</button></div>}{children}</>:
       mode==='login'?<LoginForm login={login} message={message} onBackup={download}/>:
       <div className="stack" style={{paddingBlock:48,maxWidth:600,marginInline:'auto'}}><h1>Tondi</h1><div className="card">
       <h2>{mode==='checking'?'Menghubungkan data…':mode==='setup'?'Konfigurasi admin belum selesai':mode==='conflict'?'Konflik penyimpanan':'Layanan belum tersedia'}</h2>
